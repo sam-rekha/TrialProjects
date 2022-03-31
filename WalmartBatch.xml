@@ -1,0 +1,13 @@
+<suite name="Walmart Auto">
+	<test name="Batch1" allow-return-values="true">
+		<classes>
+			<class name="seleniumExample.WalmartAutomation" />
+		</classes>
+	</test>
+	<test name="Batch2" allow-return-values="true">
+		<classes>
+			<class name="seleniumExample.WalmartDropMenu" />
+		</classes>
+	</test>
+
+</suite>
