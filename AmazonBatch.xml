@@ -1,0 +1,27 @@
+<suite name="TestNg AmazonLive">
+	<test name="Regression" allow-return-values="true">
+		<classes>
+			<class name="testLayer.CreateAccountTest" />
+		</classes>
+	</test>
+	<test name="Smoke1" allow-return-values="true">
+		<classes>
+			<class name="testLayer.SearchTest" />
+		</classes>
+	</test>
+<test name="Smoke2" allow-return-values="true">
+		<classes>
+			<class name="testLayer.ShoppingCartTest" />
+		</classes>
+	</test>
+	<test name="Smoke3" allow-return-values="true">
+		<classes>
+			<class name="testLayer.YourAddressTest" />
+		</classes>
+	</test>
+	<test name="Smoke4" allow-return-values="true">
+		<classes>
+			<class name="testLayer.YourOrdersTest" />
+		</classes>
+	</test>
+</suite>
